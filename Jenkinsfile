@@ -12,7 +12,6 @@ pipeline{
                 
                 sh '''
                     echo "========Hello from Github!======="
-                    docker images
                     node --version
                     npm --version
                     npm ci
